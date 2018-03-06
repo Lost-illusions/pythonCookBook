@@ -48,4 +48,5 @@ if __name__ == '__main__':
     q1 = deque(maxlen=3)
     #无限队列
     q2 = deque()
+    
 
