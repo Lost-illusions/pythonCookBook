@@ -37,7 +37,7 @@ if __name__ == '__main__':
                 yield li, privious_lines
             privious_lines.append(li)
 
-    with open(r'1.txt') as f:
+    with open(r'3.3.txt') as f:
         for line, prevlines in search(f, 'python', 5):
             for pline in prevlines:
                 print(pline, end='')
@@ -48,5 +48,5 @@ if __name__ == '__main__':
     q1 = deque(maxlen=3)
     #无限队列
     q2 = deque()
-    
+
 
